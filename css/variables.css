@@ -1,0 +1,78 @@
+/* CSS Custom Properties (Variables) */
+:root {
+    /* Primary Colors */
+    --primary: #6366f1;
+    --primary-dark: #4f46e5;
+    --secondary: #8b5cf6;
+    --accent: #06d6a0;
+    
+    /* Background Colors */
+    --bg-light: #fafbfc;
+    --bg-dark: #0f0f23;
+    --card-light: #ffffff;
+    --card-dark: #1a1a3e;
+    
+    /* Text Colors */
+    --text-light: #1f2937;
+    --text-dark: #f8fafc;
+    --text-muted: #64748b;
+    
+    /* Border Colors */
+    --border-light: #e2e8f0;
+    --border-dark: #2d3748;
+    
+    /* Gradients */
+    --gradient: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    --gradient-hover: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+    
+    /* Shadows */
+    --shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    --shadow-dark: 0 10px 25px rgba(0, 0, 0, 0.3);
+    --shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.15);
+    
+    /* Transitions */
+    --transition: all 0.3s ease;
+    --transition-fast: all 0.2s ease;
+    --transition-slow: all 0.6s ease;
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 6rem;
+    
+    /* Font Sizes */
+    --font-xs: 0.8rem;
+    --font-sm: 0.9rem;
+    --font-base: 1rem;
+    --font-lg: 1.2rem;
+    --font-xl: 1.5rem;
+    --font-2xl: 2rem;
+    --font-3xl: 2.5rem;
+    --font-4xl: 3rem;
+    
+    /* Font Weights */
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-extrabold: 800;
+    
+    /* Border Radius */
+    --radius-sm: 5px;
+    --radius-md: 10px;
+    --radius-lg: 15px;
+    --radius-xl: 20px;
+    --radius-full: 50px;
+    
+    /* Z-Index Layers */
+    --z-dropdown: 1000;
+    --z-sticky: 1020;
+    --z-fixed: 1030;
+    --z-modal-backdrop: 1040;
+    --z-modal: 1050;
+    --z-popover: 1060;
+    --z-tooltip: 1070;
+}

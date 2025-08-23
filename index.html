@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Kamal - Software Engineer & Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#hero" class="logo">MK</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="theme-toggle" id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Mahmoud Kamal</h1>
+            <div class="subtitle">Software Engineer & Web Developer</div>
+            <p class="description">Crafting elegant, efficient, and user-centric digital solutions with modern technologies and best practices.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-code"></i>
+                    View My Work
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-title animate-on-scroll">About Me</div>
+        <div class="about-content">
+            <div class="about-text animate-on-scroll">
+                <p>Hello! I'm Mahmoud, a passionate software engineer with a love for creating elegant and efficient solutions. I specialize in front-end development with experience in building responsive, accessible, and user-friendly web applications.</p>
+                <p>With a strong foundation in modern web technologies, I enjoy tackling complex problems and turning innovative ideas into reality. I'm constantly learning and staying up-to-date with the latest industry trends and best practices.</p>
+                <div class="skills">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">Git</span>
+                </div>
+            </div>
+            <div class="about-visual animate-on-scroll">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Software Engineer</h3>
+                    <p>Passionate about creating exceptional user experiences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-title animate-on-scroll">Featured Projects</div>
+        <div class="projects-grid">
+            <div class="project-card animate-on-scroll">
+                <div class="project-image">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="project-content">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-stack e-commerce solution with modern UI/UX, secure payment processing, and comprehensive admin dashboard.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Stripe API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card animate-on-scroll">
+                <div class="project-image">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Task Management App</h3>
+                    <p>A responsive task management application with real-time collaboration, drag-and-drop functionality, and team workspaces.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Socket.io</span>
+                        <span class="tech-tag">CSS3</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card animate-on-scroll">
+                <div class="project-image">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Analytics Dashboard</h3>
+                    <p>A comprehensive analytics dashboard with interactive charts, real-time data visualization, and customizable reporting features.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">D3.js</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact animate-on-scroll">
+            <div class="contact-content">
+                <h2>Let's Work Together</h2>
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of an amazing team. Let's create something extraordinary together!</p>
+                <div class="contact-links">
+                    <a href="mailto:mahmoud.kamal@example.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        Email Me
+                    </a>
+                    <a href="https://linkedin.com/in/mahmoudkamal" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/mahmoudkamal" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mahmoud Kamal. Built with passion and modern web technologies.</p>
+    </footer>
+
+    <script src="js/theme.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
