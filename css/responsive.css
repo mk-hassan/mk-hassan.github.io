@@ -144,6 +144,10 @@
     nav {
         padding: var(--spacing-xs) var(--spacing-sm);
     }
+
+    .nav-links a {
+        display: none;
+    }
     
     .logo {
         font-size: var(--font-lg);
@@ -281,6 +285,10 @@
 
 /* Mobile Small */
 @media (max-width: 320px) {
+    .nav-links a {
+        display: none;
+    }
+    
     .hero h1 {
         font-size: 2rem;
     }
