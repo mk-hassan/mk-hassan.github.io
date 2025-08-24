@@ -134,6 +134,21 @@ body.dark .tech-tag {
     margin-bottom: var(--spacing-md);
 }
 
+.project-contributions
+{
+    margin-bottom: var(--spacing-md);
+}
+
+.contribution-badge {
+    background: linear-gradient(45deg, #00d4ff, #5865f2);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.7em;
+    margin-left: 8px;
+    font-weight: 500;
+}
+
 /* Skill Tags */
 .skill-tag {
     background: var(--gradient);
@@ -216,6 +231,7 @@ body.dark .profile-card {
     transform: translateY(-10px);
 }
 
+
 .profile-image {
     width: 200px;
     height: 200px;
@@ -227,6 +243,28 @@ body.dark .profile-card {
     font-size: 4rem;
     color: white;
     margin: 0 auto var(--spacing-sm);
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    transition: var(--transition);
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(99, 102, 241, 0.15);
+}
+
+body.dark .profile-image img {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.profile-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 40px rgba(99, 102, 241, 0.25);
 }
 
 /* Theme Toggle */
