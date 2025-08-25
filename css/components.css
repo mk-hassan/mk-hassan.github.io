@@ -353,6 +353,16 @@ body.dark .theme-toggle {
     gap: 0.5rem;
 }
 
+.expandable-skills .certificate-skills {
+    max-height: 50px; /* Adjust this value to show a few lines of skills */
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.expandable-skills:hover .certificate-skills {
+    max-height: 500px; /* Adjust this value to be larger than the maximum possible height of the skills container */
+}
+
 .certificate-link {
     display: inline-block;
     font-weight: 600;
