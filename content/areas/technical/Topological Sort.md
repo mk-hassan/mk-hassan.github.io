@@ -1,7 +1,7 @@
 ---
 tags:
-  - Algorithms
   - DFS
+  - algorithms
 type: permanent
 date: 24-09-2025
 time: 01:46

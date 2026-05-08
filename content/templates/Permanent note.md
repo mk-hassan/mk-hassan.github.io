@@ -1,11 +1,10 @@
 ---
-tags: 
+tags:
 type: permanent
 date: "{{date}}"
 time: "{{time}}"
-parent: 
-childs: 
-aliases: 
-folgezettel: 
+parent:
+childs:
+folgezettel:
 reference:
 ---

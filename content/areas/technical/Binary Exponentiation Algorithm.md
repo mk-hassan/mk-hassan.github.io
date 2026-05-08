@@ -1,14 +1,14 @@
 ---
 tags:
-  - Algorithms
+  - algorithms
 type: permanent
 date: 13-04-2025
-parent: 
-childs: 
+parent:
+childs:
 aliases:
   - fast exponantiation
   - modulo
-folgezettel: 
+folgezettel:
 reference:
 ---
 **Calculating $a^n$ using $O(log(n))$ multiplications instead of $O(n)$**

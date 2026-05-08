@@ -1,7 +1,7 @@
 ---
 tags:
-  - Algorithms
   - DP
+  - algorithms
 type: permanent
 date: 26-09-2025
 time: 08:20
