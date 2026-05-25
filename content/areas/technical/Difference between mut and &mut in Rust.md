@@ -14,10 +14,8 @@ reference:
 &mut -> Exclusive reference
 mut -> mutable binding (the value itself is mutable)
 
-Really good note "Eng: Ahmed Farghal" mentioned :
---
-In C, C++, and Rust , a variable and its value are the same thing 
-that's called binding , you just give the value a name 
+A really good note `Ahmed Farghal` mentioned :
+In C, C++, and Rust , a variable and its value are the same thing that's called binding , you just give the value a name
 ```rust
 let x: Vec<u8> = vec![1, 2, 3];
 ```
@@ -51,4 +49,6 @@ Another way to say that:
 It's not we have a reference to Point struct that has the ability to mutate this instance, but the value itself is mutable or not because there's no distinction between the variable and the value.
 
 So why moving point works, it's defined as immutable then I moved it to another function which accepting it as mutable ?
-It's binding, we moved the whole instance (byte by byte) to a new memory location and marked this memory location as mutable (simple).
+It's binding, we moved the whole instance (byte by byte) to a new memory location and marked this memory location to be mutable.
+
+In real world, compilers can optimise this process and not performing the move and just the changes the memory.
